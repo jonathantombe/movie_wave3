@@ -68,3 +68,53 @@ hr {
 #main>.section-series {
     background-color: #411969;
 }
+footer {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>ul>li {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    list-style: none;
+}
+
+.movie-serie {
+    width: 18rem;
+    border-radius: 10px;
+    border: double 4px white;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 0.5rem;
+}
+
+.movie-serie:hover {
+    border: 2px solid rgba(8, 15, 40, .5);
+}
+
+.movie-serie>img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.section-movies p {
+    padding: 10px;
+    min-width: ;
+}
