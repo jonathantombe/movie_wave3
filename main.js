@@ -303,3 +303,55 @@ const crearCarta = (pelicula) => {
       
     })
   }
+
+  const buscarPeliculas = (texto) => {
+    const moviesContenedor = document.querySelector('.section-movies')
+    const peliculasFiltradas = peliculas.filter((pelicula) => {
+      return (
+        pelicula.titulo.toLowerCase().includes(texto) ||
+        pelicula.categoria.toLowerCase().includes(texto)
+      )
+    })
+    moviesContenedor.innerHTML = ''
+  
+    if (peliculasFiltradas.length) {
+      peliculasFiltradas.forEach((pelicula) => {
+        moviesContenedor.appendChild(crearCarta(pelicula))
+      })
+    } else {
+      const elemento = document.createElement('p')
+      elemento.textContent = 'No se encontraron resultados'
+      moviesContenedor.appendChild(elemento)
+    }
+  }
+  
+  const buscarSeries = (texto) => {
+    const seriesContenedor = document.querySelector('.section-series')
+    const seriesFiltradas = series.filter((serie) => {
+      return (
+        serie.titulo.toLowerCase().includes(texto) ||
+        serie.categoria.toLowerCase().includes(texto)
+      )
+    })
+    seriesContenedor.innerHTML = ''
+  
+    if (seriesFiltradas.length) {
+      seriesFiltradas.forEach((serie) => {
+        seriesContenedor.appendChild(crearCarta(serie))
+      })
+    } else {
+      const elemento = document.createElement('p')
+      elemento.textContent = 'No se encontraron resultados'
+      seriesContenedor.appendChild(elemento)
+    }
+  }
+  
+  const buscador = document.querySelector('#buscador')
+  buscador.addEventListener('keyup', (e) => {
+    const texto = e.target.value.toLowerCase()
+    buscarPeliculas(texto)
+    buscarSeries(texto)
+  })
+  
+  mostrarPeliculas()
+  mostrarSeries()
