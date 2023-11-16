@@ -256,3 +256,50 @@ const series = [
         imagen:"assets/Images/Series/11.jpg" 
     }
 ]
+const crearCarta = (pelicula) => {
+    const element = document.createElement('div')
+  
+    const img = document.createElement('img')
+    img.src = pelicula.imagen
+  
+    const titulo = document.createElement('h2')
+    titulo.textContent = pelicula.titulo
+  
+    const estrenoTitulo = document.createElement('p')
+    estrenoTitulo.textContent = 'Estreno: ' + pelicula.fecha
+    const estreno = document.createElement('p')
+    estreno.textContent = pelicula.sipnosis
+  
+    const trailerTitulo = document.createElement('p')
+    trailerTitulo.textContent = 'Genero: ' + pelicula.categoria
+  
+    const trailer = document.createElement('a')
+    trailer.setAttribute('target', '_blank')
+    trailer.classList.add('trailer')
+    trailer.textContent = 'Ver trailer'
+    trailer.href = pelicula.trailer
+  
+    element.appendChild(img)
+    element.appendChild(titulo)
+    element.appendChild(estrenoTitulo)
+    element.appendChild(estreno)
+    element.appendChild(trailerTitulo)
+    element.appendChild(trailer)
+    element.classList.add('movie-serie')
+    return element
+  }
+  
+  const mostrarPeliculas = () => {
+    const moviesContenedor = document.querySelector('.section-movies')
+    peliculas.forEach((pelicula) => {
+      moviesContenedor.appendChild(crearCarta(pelicula))
+    })
+  }
+  
+  const mostrarSeries = () => {
+    const moviesContenedor = document.querySelector('.section-series')
+    series.forEach((serie) => {
+      moviesContenedor.appendChild(crearCarta(serie))
+      
+    })
+  }
