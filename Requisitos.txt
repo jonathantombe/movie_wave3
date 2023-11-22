@@ -1,11 +1,9 @@
-1. Jhonatan: Creación de repositorio y rama develop. Entregar esqueleto del proyecto.
-2. Juan José y Valeria: Levantamiento de información películas y series incluyendo los trailers(Esto ya lo está organizando Juan José)
-3. Jonathan Tombe: Creación de objeto de películas.
-4. Valeria: Creación de objeto de Series.
-5. Juan José: Creación de función para crear las cards
-6. Juan José: Pintar las películas
-7. Valeria: Pintar las series.
-8. Jhonatan Tombe: Creación de función que recorra los objetos para pintar las películas y las series.
-9. Stiven: Creación de función que busque en tiempo real por título, creación de select con búsqueda por género.
-10. Valeria: Revisar que la aplicación se vea Ordenada.
-11. Stiven: revisar el responsive.
+1. Que en el home haya 15 series y 15 películas.
+2. título, estreno, sinopsis,género,botón agregar.
+3. Redirigir a youtube.
+4. Buscar por título y por género
+================================
+1. Crear un repo, el líder de equipo Jhonatan
+2. Reunir la información de las películas.
+Info Películas: 
+Info Series:  
