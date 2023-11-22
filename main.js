@@ -367,51 +367,6 @@ const filtrarPorPeliculas = () => {
   });
 }
 
-const filtrarPeliculasPorCategoria = (categoria) => {
-  const peliculasFiltradas = peliculas.filter(p => p.categoria === categoria);
-
-  const moviesContenedor = document.querySelector('.section-movies');
-  moviesContenedor.innerHTML = '';
-
-  peliculasFiltradas.forEach(p => {
-    moviesContenedor.appendChild(crearCarta(p));
-  });
-}
-
-const filtrarSeriesPorCategoria = (categoria) => {
-  const seriesFiltradas = series.filter(s => s.categoria === categoria);
-
-  const seriesContenedor = document.querySelector('.section-series');
-  seriesContenedor.innerHTML = '';
-
-  seriesFiltradas.forEach(s => {
-    seriesContenedor.appendChild(crearCarta(s));
-  });
-}
-
-const filtroCategoria = document.querySelector('#filtroCategoria');
-
-filtroCategoria.addEventListener('change', () => {
-  if (filtroCategoria.value === 'series') {
-    filtrarPorSeries();
-  }
-
-  if (filtroCategoria.value === 'peliculas') {
-    filtrarPorPeliculas();
-  }
-  if (filtroCategoria.value === 'todos') {
-    mostrarPeliculas();
-    mostrarSeries();
-    return;
-  } else {
-    const categoria = filtroCategoria.value;
-    filtrarPeliculasPorCategoria(categoria);
-    filtrarSeriesPorCategoria(categoria);
-  }
-
-  
-
-})
 
 
 
