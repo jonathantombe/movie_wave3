@@ -157,7 +157,7 @@ const series = [
     titulo: "El juego del calamar",
     fecha: "2021",
     categoria: "accion",
-    sipnopsis: "Cientos de personas con dificultades económicas aceptan una extraña invitación a un juego de supervivencia. Les espera un premio millonario, pero hay mucho en juego.",
+    sipnosis: "Cientos de personas con dificultades económicas aceptan una extraña invitación a un juego de supervivencia. Les espera un premio millonario, pero hay mucho en juego.",
     trailer: "https://www.youtube.com/embed/CF2ekNUwbz8",
     imagen: "assets/Images/Series/3.jpg"
   },
@@ -247,7 +247,7 @@ const series = [
     categoria: "accion",
     sipnosis: "La historia de uno de los asesinos en serie más conocidos de Estados Unidos, contada desde los puntos de vista de sus víctimas. ",
     trailer: "https://www.youtube.com/embed/ZHZG6UArE3I",
-    imagen: "assets/Images/Series/15.jpg"
+    imagen: "assets/Images/Series/11.jpg"
   },
   {
     titulo: "The crown",
@@ -255,7 +255,7 @@ const series = [
     categoria: "accion",
     sipnosis: "Cientos de personas con dificultades económicas aceptan una extraña invitación a un juego de supervivencia. Les espera un premio millonario, pero hay mucho en juego.",
     trailer: "https://www.youtube.com/embed/xl8zdCY-abw",
-    imagen: "assets/Images/Series/11.jpg"
+    imagen: "assets/Images/Series/15.jpg"
   }
 ]
 
