@@ -157,11 +157,7 @@ const series = [
     titulo: "juego calamar",
     fecha: "2021",
     categoria: "accion",
-<<<<<<< HEAD
     sipnosis: "Cientos de personas con dificultades económicas aceptan una extraña invitación a un juego de.",
-=======
-    sipnosis: "Cientos de personas con dificultades económicas aceptan una extraña invitación a un juego de supervivencia. Les espera un premio millonario, pero hay mucho en juego.",
->>>>>>> bdce32444b4597fcc54a7dfcd58db78f0e0f71ab
     trailer: "https://www.youtube.com/embed/CF2ekNUwbz8",
     imagen: "assets/Images/Series/3.jpg"
   },
@@ -450,13 +446,6 @@ cerrarModalelemento.addEventListener("click", () => {
   const modalElemento = document.querySelector(".modal");
   modalElemento.classList.remove("open");
 });
-
-
-
-
-
-
-
 mostrarPeliculas();
 mostrarSeries();
 
