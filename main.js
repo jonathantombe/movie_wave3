@@ -367,6 +367,7 @@ const filtrarPorPeliculas = () => {
   });
 }
 
+
 const filtrarPeliculasPorCategoria = (categoria) => {
   const peliculasFiltradas = peliculas.filter(p => p.categoria === categoria);
 
@@ -409,8 +410,6 @@ filtroCategoria.addEventListener('change', () => {
     filtrarSeriesPorCategoria(categoria);
   }
 })
-
-
 
 const buscarSeries = (texto) => {
   const seriesContenedor = document.querySelector('.section-series')
