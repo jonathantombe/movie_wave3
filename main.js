@@ -140,7 +140,7 @@ const series = [
   {
     titulo: "One piece",
     fecha: "2023",
-    categoria: "Ciencia ficcion",
+    categoria: "Comedia",
     sipnosis: "One Piece  es un manga escrito e ilustrado por el mangaka japonés Eiichirō Oda. Comenzó a publicarse en la revista.",
     trailer: "https://www.youtube.com/embed/4k0YKcqWlBI",
     imagen: "assets/Images/Series/1.jpg"
@@ -148,7 +148,7 @@ const series = [
   {
     titulo: "Merlina",
     fecha: "2022",
-    categoria: "Ciencia ficcion",
+    categoria: "Comedia",
     sipnosis: "Miércoles llega a su nuevo colegio, Academia de Nunca Jamás, tras ser expulsada de varios centros. Allí se verá.",
     trailer: "https://www.youtube.com/embed/gmp7LTKnVPo",
     imagen: "assets/Images/Series/2.jpg"
@@ -156,7 +156,7 @@ const series = [
   {
     titulo: "juego calamar",
     fecha: "2021",
-    categoria: "accion",
+    categoria: "Accion",
     sipnosis: "Cientos de personas con dificultades económicas aceptan una extraña invitación a un juego de.",
     trailer: "https://www.youtube.com/embed/CF2ekNUwbz8",
     imagen: "assets/Images/Series/3.jpg"
@@ -164,7 +164,7 @@ const series = [
   {
     titulo: "Stranger Things",
     fecha: "2016",
-    categoria: "Ciencia ficcion",
+    categoria: "Ciencia Ficcion",
     sipnosis: "Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos.",
     trailer: "https://www.youtube.com/embed/KQoYqvc0QVQ",
     imagen: "assets/Images/Series/4.jpg"
@@ -180,7 +180,7 @@ const series = [
   {
     titulo: "Bloodline",
     fecha: "2015",
-    categoria: "accion",
+    categoria: "comedia",
     sipnosis: "Los secretos de una familia de hermanos adultos son revelados cuando la oveja negra regresa a casa.",
     trailer: "https://www.youtube.com/embed/x7Yq9MJUqjY",
     imagen: "assets/Images/Series/6.jpg"
@@ -188,7 +188,7 @@ const series = [
   {
     titulo: "La Casa De Papel",
     fecha: "2017",
-    categoria: "accion",
+    categoria: "Accion",
     sipnosis: "Una banda organizada de ladrones se propone cometer el atraco del siglo en la Fábrica Nacional de Moneda y.",
     trailer: "https://www.youtube.com/embed/xPKN7MxS8TU",
     imagen: "assets/Images/Series/7.jpg"
@@ -196,7 +196,7 @@ const series = [
   {
     titulo: "Dark",
     fecha: "2017",
-    categoria: "Ciencia ficcion",
+    categoria: "Ciencia Ficcion",
     sipnosis: "La historia arranca con la desaparición de un niño en una pequeña localidad alemana, hecho que cambiará.",
     trailer: "https://www.youtube.com/embed/SrPggvIrRBI",
     imagen: "assets/Images/Series/8.jpg"
@@ -204,7 +204,7 @@ const series = [
   {
     titulo: "Wild Wild Country",
     fecha: "2018",
-    categoria: "accion",
+    categoria: "Accion",
     sipnosis: "Un controvertido líder de culto construye una ciudad utópica en el desierto de Oregón. El conflicto con los.",
     trailer: "https://www.youtube.com/embed/3y-6iaveY6c",
     imagen: "assets/Images/Series/9.jpg"
@@ -212,7 +212,7 @@ const series = [
   {
     titulo: "Breaking bad ",
     fecha: "2008",
-    categoria: "accion",
+    categoria: "Comedia",
     sipnosis: "Walter White es un profesor de química de un instituto de Albuquerque. Cuando cumple 50 años es diagnosticado de.",
     trailer: "https://www.youtube.com/embed/IJ_AZCvCacw",
     imagen: "assets/Images/Series/10.jpg"
@@ -220,7 +220,7 @@ const series = [
   {
     titulo: "Vis a vis",
     fecha: "2015",
-    categoria: "accion",
+    categoria: "Comedia",
     sipnosis: "La ficción gira entorno a Macarena, una joven inofensiva que ingresa en la prisión de Cruz del Sur para.",
     trailer: "https://www.youtube.com/embed/hBLS_OM6Puk",
     imagen: "assets/Images/Series/12.jpg"
@@ -228,7 +228,7 @@ const series = [
   {
     titulo: "Peaky Blinders",
     fecha: "2013",
-    categoria: "accion",
+    categoria: "Accion",
     sipnosis: "Gran Bretaña vive la posguerra. Los soldados regresan, se acuñan nuevas revoluciones y nacen bandas.",
     trailer: "https://www.youtube.com/embed/HhesaQXLuRY",
     imagen: "assets/Images/Series/13.jpg"
@@ -236,7 +236,7 @@ const series = [
   {
     titulo: "Narcos",
     fecha: "2015",
-    categoria: "accion",
+    categoria: "Ciencia Ficcion",
     sipnosis: "La historia del ascenso y caída del capo colombiano Pablo Escobar y de los agentes de la DEA que.",
     trailer: "https://www.youtube.com/embed/1AZOY0Xo3m8",
     imagen: "assets/Images/Series/14.jpg"
@@ -244,7 +244,7 @@ const series = [
   {
     titulo: "Monstruo",
     fecha: "2022",
-    categoria: "accion",
+    categoria: "Ciencia Ficcion",
     sipnosis: "La historia de uno de los asesinos en serie más conocidos de Estados Unidos, contada desde los puntos de . ",
     trailer: "https://www.youtube.com/embed/ZHZG6UArE3I",
     imagen: "assets/Images/Series/11.jpg"
@@ -252,7 +252,7 @@ const series = [
   {
     titulo: "The crown",
     fecha: "2021",
-    categoria: "accion",
+    categoria: "Accion",
     sipnosis: "Cientos de personas con dificultades económicas aceptan una extraña invitación a un juego de.",
     trailer: "https://www.youtube.com/embed/xl8zdCY-abw",
     imagen: "assets/Images/Series/15.jpg"
@@ -275,9 +275,6 @@ const crearCarta = (pelicula) => {
 
   });
 
-
-  
- 
 
   const img = document.createElement('img')
   img.src = pelicula.imagen
@@ -349,50 +346,30 @@ const buscarPeliculas = (texto) => {
   }
 }
 
-const filtrarPorSeries = () => {
-  const seriesContenedor = document.querySelector('.section-series');
-  seriesContenedor.innerHTML = '';
 
-  series.forEach(s => {
-  seriesContenedor.appendChild(crearCarta(s));
-  });
-}
-
-const filtrarPorPeliculas = () => {
-  const moviesContenedor = document.querySelector('.section-movies');
-  moviesContenedor.innerHTML = '';
-
-  peliculas.forEach(p => {
-  moviesContenedor.appendChild(crearCarta(p));
-  });
-}
-
-
-const filtrarPeliculasPorCategoria = (categoria) => {
+const filtrarPorCategoria = (categoria) => {
   const peliculasFiltradas = peliculas.filter(p => p.categoria === categoria);
+  const seriesFiltradas = series.filter(s => s.categoria === categoria);
 
   const moviesContenedor = document.querySelector('.section-movies');
   moviesContenedor.innerHTML = '';
-
   peliculasFiltradas.forEach(p => {
     moviesContenedor.appendChild(crearCarta(p));
   });
-}
-
-const filtrarSeriesPorCategoria = (categoria) => {
-  const seriesFiltradas = series.filter(s => s.categoria === categoria);
 
   const seriesContenedor = document.querySelector('.section-series');
   seriesContenedor.innerHTML = '';
-
   seriesFiltradas.forEach(s => {
     seriesContenedor.appendChild(crearCarta(s));
   });
-}
+};
+
 
 const filtroCategoria = document.querySelector('#filtroCategoria');
 
 filtroCategoria.addEventListener('change', () => {
+  const categoria = filtroCategoria.value;
+  filtrarPorCategoria(categoria);
   if (filtroCategoria.value === 'series') {
     filtrarPorSeries();
   }
@@ -404,11 +381,8 @@ filtroCategoria.addEventListener('change', () => {
     mostrarPeliculas();
     mostrarSeries();
     return;
-  } else {
-    const categoria = filtroCategoria.value;
-    filtrarPeliculasPorCategoria(categoria);
-    filtrarSeriesPorCategoria(categoria);
-  }
+  } 
+ 
 })
 
 const buscarSeries = (texto) => {
