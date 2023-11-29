@@ -445,8 +445,6 @@ cerrarModalelemento.addEventListener("click", () => {
   const modalElemento = document.querySelector(".modal");
   modalElemento.classList.remove("open");
 });
-
-
 mostrarPeliculas();
 mostrarSeries();
 
