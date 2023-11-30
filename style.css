@@ -201,7 +201,7 @@ footer > p{
 }
 .movie-serie {
   width: 18rem;
-  height: 30rem;
+  height: 27rem;
   border-radius: 10px;
   border: double 4px white;
   margin: 1rem;
@@ -226,16 +226,6 @@ footer > p{
 .movie-serie > h2{
   color: #007aff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.movie-serie > a{
-  color: black;
-  background-color: aquamarine;
-  border: 2px solid #007aff;
-  border-radius: 20px;
-  box-shadow: 0 0px 5px #007aff;
-  text-decoration: none;
-  padding: 5px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .modal {

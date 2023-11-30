@@ -293,7 +293,6 @@ const crearCarta = (pelicula) => {
   const trailer = document.createElement('a')
   trailer.setAttribute('target', '_blank')
   trailer.classList.add('trailer')
-  trailer.textContent = 'VER TRAILER'
   trailer.href = pelicula.trailer
 
   element.appendChild(img)
