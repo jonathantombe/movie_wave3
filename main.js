@@ -5,7 +5,7 @@ const peliculas = [
     categoria: 'Ciencia Ficcion',
     sipnosis:
       'Finn y Poe guían a la Resistencia para detener los planes de la Primera Orden para formar un nuevo.',
-    trailer: 'https://www.youtube.com/embed/mAGcR6ZqKlQ?si=0lCojQvEBx4PpQVB',
+    trailer: 'https://www.youtube.com/embed/Izme__ZsURY?si=4zfNJZiRhwaH5C9x',
     imagen: 'assets/Images/Movies/1.jpg'
   },
   {
@@ -86,7 +86,7 @@ const peliculas = [
     categoria: 'Comedia',
     sipnosis:
       'Gene, un emoji con varias expresiones, pide a su amigo Hi-5 y al desencriptador Jailbreak que le.',
-    trailer: 'https://www.youtube.com/watch?v=7hKwPHRLz58',
+    trailer: 'https://www.youtube.com/embed/watch?v=7hKwPHRLz58',
     imagen: 'assets/Images/Movies/10.jpg'
   },
   {
@@ -95,7 +95,7 @@ const peliculas = [
     categoria: 'Comedia',
     sipnosis:
       'Una pareja se muda a una mansión para convertirla en un hotel, pero no son conscientes del peligro que .',
-    trailer: 'https://www.youtube.com/watch?v=wnNgGp1KVWQ',
+    trailer: 'https://www.youtube.com/embed/watch?v=wnNgGp1KVWQ',
     imagen: 'assets/Images/Movies/11.jpg'
   },
   {
@@ -104,7 +104,7 @@ const peliculas = [
     categoria: 'Accion',
     sipnosis:
       'En la Francia de 1916, el general Boulard ordena la conquista alemana y encarga esa misión al general Mireau.',
-    trailer: 'https://www.youtube.com/watch?v=nmDA60X-f_A',
+    trailer: 'https://www.youtube.com/embed/watch?v=nmDA60X-f_A',
     imagen: 'assets/Images/Movies/12.jpg'
   },
   {
@@ -113,7 +113,7 @@ const peliculas = [
     categoria: 'Ciencia Ficcion',
     sipnosis:
       'El hijo de Elin muere en un accidente por ahogamiento, pero junto con su hija Storm (10) intenta reiniciar, pero.',
-    trailer: 'https://www.youtube.com/watch?v=JHxhTOxX_bs',
+    trailer: 'https://www.youtube.com/embed/watch?v=JHxhTOxX_bs',
     imagen: 'assets/Images/Movies/13.jpg'
   },
   {
@@ -131,7 +131,7 @@ const peliculas = [
     categoria: 'Comedia',
     sipnosis:
       'Sonic intenta atravesar las complejidades de la vida en la Tierra con su nuevo mejor amigo, un.',
-    trailer: 'https://www.youtube.com/watch?v=XPqAai3WBag',
+    trailer: 'https://www.youtube.com/embed/watch?v=XPqAai3WBag',
     imagen: 'assets/Images/Movies/15.jpg'
   }
 ]
@@ -158,7 +158,7 @@ const series = [
     fecha: "2021",
     categoria: "Accion",
     sipnosis: "Cientos de personas con dificultades económicas aceptan una extraña invitación a un juego de.",
-    trailer: "https://www.youtube.com/embed/CF2ekNUwbz8",
+    trailer: "https://www.youtube.com/embed/Mj4_xG5NXeo",
     imagen: "assets/Images/Series/3.jpg"
   },
   {
@@ -166,7 +166,7 @@ const series = [
     fecha: "2016",
     categoria: "Ciencia Ficcion",
     sipnosis: "Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos.",
-    trailer: "https://www.youtube.com/embed/KQoYqvc0QVQ",
+    trailer: "https://www.youtube.com/embed/x7Yq9MJUqjY",
     imagen: "assets/Images/Series/4.jpg"
   },
   {
@@ -174,7 +174,7 @@ const series = [
     fecha: "2021",
     categoria: "Ciencia ficcion",
     sipnosis: "Impecable adaptación del mítico videojuego League of Legends (Lol). El argumento se desarrolla en dos.",
-    trailer: "https://www.youtube.com/embed/Mj4_xG5NXeo",
+    trailer: "https://www.youtube.com/embed/fXmAurh012s?si=tUU3Mhg6SP1h4t0X",
     imagen: "assets/Images/Series/5.jpg"
   },
   {
@@ -182,7 +182,7 @@ const series = [
     fecha: "2015",
     categoria: "comedia",
     sipnosis: "Los secretos de una familia de hermanos adultos son revelados cuando la oveja negra regresa a casa.",
-    trailer: "https://www.youtube.com/embed/x7Yq9MJUqjY",
+    trailer: "https://www.youtube.com/embed/SrPggvIrRBI",
     imagen: "assets/Images/Series/6.jpg"
   },
   {
@@ -190,7 +190,7 @@ const series = [
     fecha: "2017",
     categoria: "Accion",
     sipnosis: "Una banda organizada de ladrones se propone cometer el atraco del siglo en la Fábrica Nacional de Moneda y.",
-    trailer: "https://www.youtube.com/embed/xPKN7MxS8TU",
+    trailer: "https://www.youtube.com/embed/3y-6iaveY6c",
     imagen: "assets/Images/Series/7.jpg"
   },
   {
@@ -198,7 +198,6 @@ const series = [
     fecha: "2017",
     categoria: "Ciencia Ficcion",
     sipnosis: "La historia arranca con la desaparición de un niño en una pequeña localidad alemana, hecho que cambiará.",
-    trailer: "https://www.youtube.com/embed/SrPggvIrRBI",
     imagen: "assets/Images/Series/8.jpg"
   },
   {
@@ -325,6 +324,7 @@ const mostrarSeries = () => {
 }
 
 
+
 const buscarPeliculas = (texto) => {
   const moviesContenedor = document.querySelector('.section-movies')
   const peliculasFiltradas = peliculas.filter((pelicula) => {
@@ -419,6 +419,10 @@ cerrarModalelemento.addEventListener("click", () => {
   const modalElemento = document.querySelector(".modal");
   modalElemento.classList.remove("open");
 });
+
+
+
+
 mostrarPeliculas();
 mostrarSeries();
 
