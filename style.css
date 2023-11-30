@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #000000;
+
 }
 
 header {
@@ -207,7 +209,6 @@ footer > p{
   flex-direction: column;
   align-items: center;
   background-color: black;
-  /* background-color: #040814; */
   cursor: pointer;
   color: white;
   gap: 10px;
@@ -234,7 +235,7 @@ footer > p{
   box-shadow: 0 0px 5px #007aff;
   text-decoration: none;
   padding: 5px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .modal {
@@ -246,6 +247,19 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   justify-content: center;
   align-items: center;
 }
+
+.cerrar-modal{
+  color: black;
+  background-color: #007aff;
+  border: 2px solid #007aff;
+  border-radius: 20px;
+  height: 40px;
+  padding:14px 54px;
+ font-size: 15px;
+ text-align: center;
+  
+}
+
 .modal .overlay {
   width: 100%;
   height: 100%;
@@ -261,9 +275,14 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   z-index: 1;
   position: fixed;
   top: 18rem;
-  background-color: rgba(8, 15, 40, .5);
+  background-color: rgba(8, 15, 40, 0.596);
+  
 }
-@media screen and (min-width: 300px) and (max-width: 480px){
+
+
+
+@media screen and (max-width: 768px) {
+  
   header > input{
     width: 10rem; 
   }
@@ -273,11 +292,26 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   footer > p{
     padding: 10px;
   }
+
+  .modal .content{
+    width: 80%
+  }
+
+  .modal .content  iframe {
+    width: 100%; 
+
+  }
+  
+  .cerrar-modal{
+    position: absolute;
+   bottom: 0;
+   display: flex;
+   right: 8rem;
+ }
 }
 
 
-
- @media only screen and (max-width: 970px) {
+@media screen and (min-width: 1200px) {
   body {
     font-size: 14px;
   }
@@ -297,5 +331,18 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   footer ul {
     flex-direction: column;
-  }
+  }   
+  
+  
+  .cerrar-modal{
+    position: absolute;
+   bottom: 0;
+   right: 35%;
+ }
+ 
 }
+
+
+
+
+
