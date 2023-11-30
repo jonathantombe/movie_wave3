@@ -176,7 +176,8 @@ footer > ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+ display: flex;
+ flex-direction: row;
 }
 
 footer > ul > li {
@@ -223,16 +224,6 @@ footer > p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.movie-serie > a{
-  color: black;
-  background-color: aquamarine;
-  border: 2px solid #007aff;
-  border-radius: 20px;
-  box-shadow: 0 0px 5px #007aff;
-  text-decoration: none;
-  padding: 5px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 .movie-serie > p{
   margin: 0 10px;
   font-size: 17px;
@@ -327,38 +318,6 @@ footer > p{
 }
 
 
-@media screen and (min-width: 1200px) {
-  body {
-    font-size: 14px;
-  }
-  .modal .content{
-    margin-top: -40px;
-  }
-  header {
-    padding: 10px;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
-
-  select,
-  input {
-    width: 50%;
-    margin-bottom: 20px;
-  }
-  footer ul {
-    flex-direction: column;
-  }   
-  
-  
-  .cerrar-modal{
-    position: absolute;
-   bottom: 0;
-   right: 35%;
- }
- 
-}
 
 
 
