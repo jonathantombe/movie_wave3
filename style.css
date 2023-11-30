@@ -258,6 +258,7 @@ footer > p{
  font-size: 15px;
  text-align: center;
   
+
 }
 
 .modal .overlay {
@@ -275,9 +276,8 @@ footer > p{
   z-index: 1;
   position: fixed;
   top: 0;
-  background-color: rgba(8, 15, 40, .5);
   top: 18rem;
-  background-color: rgba(8, 15, 40, 0.596);
+  background-color: rgba(8, 15, 40, .5);
 
 }
 
@@ -297,6 +297,13 @@ footer > p{
   .filtroCategoria > option{
     width: 50%;
   }
+
+  .div-content{
+    display: flex;
+  }
+
+ 
+
 }
 
  @media only screen and (max-width: 970px) {
@@ -315,6 +322,12 @@ footer > p{
    display: flex;
    right: 8rem;
  }
+
+ .modal .content {
+  top: 13rem;
+}
+
+
 }
 
 
