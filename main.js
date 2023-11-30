@@ -22,7 +22,7 @@ const peliculas = [
     fecha: '2020',
     categoria: 'Accion',
     sipnosis:
-      'Durante la Primera Guerra Mundial, dos jóvenes soldados británicos reciben una orden, aparentemente, imposible de  ',
+      'Durante la Primera Guerra Mundial, dos jóvenes soldados británicos reciben una orden, aparentemente,',
     trailer: 'https://www.youtube.com/embed/YrbdN5zaouU',
     imagen: 'assets/Images/Movies/3.jpg'
   },
@@ -31,7 +31,7 @@ const peliculas = [
     fecha: '2012',
     categoria: 'Accion',
     sipnosis:
-      'Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la.',
+      'Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director.',
     trailer: 'https://www.youtube.com/embed/HQIiYqOVTWo',
     imagen: 'assets/Images/Movies/4.jpg'
   },
@@ -49,7 +49,7 @@ const peliculas = [
     fecha: '2013',
     categoria: 'Ciencia Ficcion',
     sipnosis:
-      'Jack Harper y Victoria Olsen son los únicos habitantes de la Tierra, destruida hace sesenta años. Harper, un. ',
+      'Jack Harper y Victoria Olsen son los únicos habitantes de la Tierra, destruida hace sesenta años. Harper. ',
     trailer: 'https://www.youtube.com/embed/Pt7TGR8wwdw',
     imagen: 'assets/Images/Movies/6.jpg'
   },
@@ -85,7 +85,7 @@ const peliculas = [
     fecha: '2017',
     categoria: 'Comedia',
     sipnosis:
-      'Gene, un emoji con varias expresiones, pide a su amigo Hi-5 y al desencriptador Jailbreak que le ayuden a.',
+      'Gene, un emoji con varias expresiones, pide a su amigo Hi-5 y al desencriptador Jailbreak que le.',
     trailer: 'https://www.youtube.com/watch?v=7hKwPHRLz58',
     imagen: 'assets/Images/Movies/10.jpg'
   },
@@ -121,7 +121,7 @@ const peliculas = [
     fecha: '2022',
     categoria: 'Ciencia Ficcion',
     sipnosis:
-      'Aquaman debe recuperar el legendario Tridente de Atlan para salvar a la ciudad subacuática de Atlantis.',
+      'Aquaman debe recuperar el legendario Tridente de Atlan para salvar a la ciudad subacuática de.',
     trailer: 'https://www.youtube.com/embed/D3WCrSnCLEM',
     imagen: 'assets/Images/Movies/14.jpg'
   },
@@ -130,7 +130,7 @@ const peliculas = [
     fecha: '2020',
     categoria: 'Comedia',
     sipnosis:
-      'Sonic intenta atravesar las complejidades de la vida en la Tierra con su nuevo mejor amigo, un humano llamado Tom.',
+      'Sonic intenta atravesar las complejidades de la vida en la Tierra con su nuevo mejor amigo, un.',
     trailer: 'https://www.youtube.com/watch?v=XPqAai3WBag',
     imagen: 'assets/Images/Movies/15.jpg'
   }
@@ -141,7 +141,7 @@ const series = [
     titulo: "One piece",
     fecha: "2023",
     categoria: "Comedia",
-    sipnosis: "One Piece  es un manga escrito e ilustrado por el mangaka japonés Eiichirō Oda. Comenzó a publicarse en la revista.",
+    sipnosis: "One Piece  es un manga escrito e ilustrado por el mangaka japonés Eiichirō Oda. Comenzó a publicarse .",
     trailer: "https://www.youtube.com/embed/4k0YKcqWlBI",
     imagen: "assets/Images/Series/1.jpg"
   },
@@ -149,12 +149,12 @@ const series = [
     titulo: "Merlina",
     fecha: "2022",
     categoria: "Comedia",
-    sipnosis: "Miércoles llega a su nuevo colegio, Academia de Nunca Jamás, tras ser expulsada de varios centros. Allí se verá.",
+    sipnosis: "Miércoles llega a su nuevo colegio, Academia de Nunca Jamás, tras ser expulsada de varios centros. Allí se.",
     trailer: "https://www.youtube.com/embed/gmp7LTKnVPo",
     imagen: "assets/Images/Series/2.jpg"
   },
   {
-    titulo: "juego calamar",
+    titulo: "Juego calamar",
     fecha: "2021",
     categoria: "Accion",
     sipnosis: "Cientos de personas con dificultades económicas aceptan una extraña invitación a un juego de.",
@@ -205,7 +205,7 @@ const series = [
     titulo: "Wild Wild Country",
     fecha: "2018",
     categoria: "Accion",
-    sipnosis: "Un controvertido líder de culto construye una ciudad utópica en el desierto de Oregón. El conflicto con los.",
+    sipnosis: "Un controvertido líder de culto construye una ciudad utópica en el desierto de Oregón. El conflicto con.",
     trailer: "https://www.youtube.com/embed/3y-6iaveY6c",
     imagen: "assets/Images/Series/9.jpg"
   },
@@ -213,7 +213,7 @@ const series = [
     titulo: "Breaking bad ",
     fecha: "2008",
     categoria: "Comedia",
-    sipnosis: "Walter White es un profesor de química de un instituto de Albuquerque. Cuando cumple 50 años es diagnosticado de.",
+    sipnosis: "Walter White es un profesor de química de un instituto de Albuquerque. Cuando cumple 50 años.",
     trailer: "https://www.youtube.com/embed/IJ_AZCvCacw",
     imagen: "assets/Images/Series/10.jpg"
   },
