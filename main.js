@@ -325,6 +325,7 @@ const mostrarSeries = () => {
 }
 
 
+
 const buscarPeliculas = (texto) => {
   const moviesContenedor = document.querySelector('.section-movies')
   const peliculasFiltradas = peliculas.filter((pelicula) => {
