@@ -5,7 +5,7 @@ const peliculas = [
     categoria: 'Ciencia Ficcion',
     sipnosis:
       'Finn y Poe guían a la Resistencia para detener los planes de la Primera Orden para formar un nuevo.',
-    trailer: 'https://www.youtube.com/embed/mAGcR6ZqKlQ?si=0lCojQvEBx4PpQVB',
+    trailer: 'https://www.youtube.com/embed/Izme__ZsURY?si=4zfNJZiRhwaH5C9x',
     imagen: 'assets/Images/Movies/1.jpg'
   },
   {
@@ -22,7 +22,7 @@ const peliculas = [
     fecha: '2020',
     categoria: 'Accion',
     sipnosis:
-      'Durante la Primera Guerra Mundial, dos jóvenes soldados británicos reciben una orden, aparentemente, imposible de  ',
+      'Durante la Primera Guerra Mundial, dos jóvenes soldados británicos reciben una orden, aparentemente,',
     trailer: 'https://www.youtube.com/embed/YrbdN5zaouU',
     imagen: 'assets/Images/Movies/3.jpg'
   },
@@ -31,7 +31,7 @@ const peliculas = [
     fecha: '2012',
     categoria: 'Accion',
     sipnosis:
-      'Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la.',
+      'Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director.',
     trailer: 'https://www.youtube.com/embed/HQIiYqOVTWo',
     imagen: 'assets/Images/Movies/4.jpg'
   },
@@ -49,7 +49,7 @@ const peliculas = [
     fecha: '2013',
     categoria: 'Ciencia Ficcion',
     sipnosis:
-      'Jack Harper y Victoria Olsen son los únicos habitantes de la Tierra, destruida hace sesenta años. Harper, un. ',
+      'Jack Harper y Victoria Olsen son los únicos habitantes de la Tierra, destruida hace sesenta años. Harper. ',
     trailer: 'https://www.youtube.com/embed/Pt7TGR8wwdw',
     imagen: 'assets/Images/Movies/6.jpg'
   },
@@ -85,8 +85,8 @@ const peliculas = [
     fecha: '2017',
     categoria: 'Comedia',
     sipnosis:
-      'Gene, un emoji con varias expresiones, pide a su amigo Hi-5 y al desencriptador Jailbreak que le ayuden a.',
-    trailer: 'https://www.youtube.com/watch?v=7hKwPHRLz58',
+      'Gene, un emoji con varias expresiones, pide a su amigo Hi-5 y al desencriptador Jailbreak que le.',
+    trailer: 'https://www.youtube.com/embed/watch?v=7hKwPHRLz58',
     imagen: 'assets/Images/Movies/10.jpg'
   },
   {
@@ -95,7 +95,7 @@ const peliculas = [
     categoria: 'Comedia',
     sipnosis:
       'Una pareja se muda a una mansión para convertirla en un hotel, pero no son conscientes del peligro que .',
-    trailer: 'https://www.youtube.com/watch?v=wnNgGp1KVWQ',
+    trailer: 'https://www.youtube.com/embed/watch?v=wnNgGp1KVWQ',
     imagen: 'assets/Images/Movies/11.jpg'
   },
   {
@@ -104,7 +104,7 @@ const peliculas = [
     categoria: 'Accion',
     sipnosis:
       'En la Francia de 1916, el general Boulard ordena la conquista alemana y encarga esa misión al general Mireau.',
-    trailer: 'https://www.youtube.com/watch?v=nmDA60X-f_A',
+    trailer: 'https://www.youtube.com/embed/watch?v=nmDA60X-f_A',
     imagen: 'assets/Images/Movies/12.jpg'
   },
   {
@@ -113,7 +113,7 @@ const peliculas = [
     categoria: 'Ciencia Ficcion',
     sipnosis:
       'El hijo de Elin muere en un accidente por ahogamiento, pero junto con su hija Storm (10) intenta reiniciar, pero.',
-    trailer: 'https://www.youtube.com/watch?v=JHxhTOxX_bs',
+    trailer: 'https://www.youtube.com/embed/watch?v=JHxhTOxX_bs',
     imagen: 'assets/Images/Movies/13.jpg'
   },
   {
@@ -121,7 +121,7 @@ const peliculas = [
     fecha: '2022',
     categoria: 'Ciencia Ficcion',
     sipnosis:
-      'Aquaman debe recuperar el legendario Tridente de Atlan para salvar a la ciudad subacuática de Atlantis.',
+      'Aquaman debe recuperar el legendario Tridente de Atlan para salvar a la ciudad subacuática de.',
     trailer: 'https://www.youtube.com/embed/D3WCrSnCLEM',
     imagen: 'assets/Images/Movies/14.jpg'
   },
@@ -130,8 +130,8 @@ const peliculas = [
     fecha: '2020',
     categoria: 'Comedia',
     sipnosis:
-      'Sonic intenta atravesar las complejidades de la vida en la Tierra con su nuevo mejor amigo, un humano llamado Tom.',
-    trailer: 'https://www.youtube.com/watch?v=XPqAai3WBag',
+      'Sonic intenta atravesar las complejidades de la vida en la Tierra con su nuevo mejor amigo, un.',
+    trailer: 'https://www.youtube.com/embed/watch?v=XPqAai3WBag',
     imagen: 'assets/Images/Movies/15.jpg'
   }
 ]
@@ -140,33 +140,33 @@ const series = [
   {
     titulo: "One piece",
     fecha: "2023",
-    categoria: "Ciencia ficcion",
-    sipnosis: "One Piece  es un manga escrito e ilustrado por el mangaka japonés Eiichirō Oda. Comenzó a publicarse en la revista.",
+    categoria: "Comedia",
+    sipnosis: "One Piece  es un manga escrito e ilustrado por el mangaka japonés Eiichirō Oda. Comenzó a publicarse .",
     trailer: "https://www.youtube.com/embed/4k0YKcqWlBI",
     imagen: "assets/Images/Series/1.jpg"
   },
   {
     titulo: "Merlina",
     fecha: "2022",
-    categoria: "Ciencia ficcion",
-    sipnosis: "Miércoles llega a su nuevo colegio, Academia de Nunca Jamás, tras ser expulsada de varios centros. Allí se verá.",
+    categoria: "Comedia",
+    sipnosis: "Miércoles llega a su nuevo colegio, Academia de Nunca Jamás, tras ser expulsada de varios centros. Allí se.",
     trailer: "https://www.youtube.com/embed/gmp7LTKnVPo",
     imagen: "assets/Images/Series/2.jpg"
   },
   {
-    titulo: "juego calamar",
+    titulo: "Juego calamar",
     fecha: "2021",
-    categoria: "accion",
+    categoria: "Accion",
     sipnosis: "Cientos de personas con dificultades económicas aceptan una extraña invitación a un juego de.",
-    trailer: "https://www.youtube.com/embed/CF2ekNUwbz8",
+    trailer: "https://www.youtube.com/embed/Mj4_xG5NXeo",
     imagen: "assets/Images/Series/3.jpg"
   },
   {
     titulo: "Stranger Things",
     fecha: "2016",
-    categoria: "Ciencia ficcion",
+    categoria: "Ciencia Ficcion",
     sipnosis: "Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos.",
-    trailer: "https://www.youtube.com/embed/KQoYqvc0QVQ",
+    trailer: "https://www.youtube.com/embed/x7Yq9MJUqjY",
     imagen: "assets/Images/Series/4.jpg"
   },
   {
@@ -174,53 +174,52 @@ const series = [
     fecha: "2021",
     categoria: "Ciencia ficcion",
     sipnosis: "Impecable adaptación del mítico videojuego League of Legends (Lol). El argumento se desarrolla en dos.",
-    trailer: "https://www.youtube.com/embed/Mj4_xG5NXeo",
+    trailer: "https://www.youtube.com/embed/fXmAurh012s?si=tUU3Mhg6SP1h4t0X",
     imagen: "assets/Images/Series/5.jpg"
   },
   {
     titulo: "Bloodline",
     fecha: "2015",
-    categoria: "accion",
+    categoria: "comedia",
     sipnosis: "Los secretos de una familia de hermanos adultos son revelados cuando la oveja negra regresa a casa.",
-    trailer: "https://www.youtube.com/embed/x7Yq9MJUqjY",
+    trailer: "https://www.youtube.com/embed/SrPggvIrRBI",
     imagen: "assets/Images/Series/6.jpg"
   },
   {
     titulo: "La Casa De Papel",
     fecha: "2017",
-    categoria: "accion",
+    categoria: "Accion",
     sipnosis: "Una banda organizada de ladrones se propone cometer el atraco del siglo en la Fábrica Nacional de Moneda y.",
-    trailer: "https://www.youtube.com/embed/xPKN7MxS8TU",
+    trailer: "https://www.youtube.com/embed/3y-6iaveY6c",
     imagen: "assets/Images/Series/7.jpg"
   },
   {
     titulo: "Dark",
     fecha: "2017",
-    categoria: "Ciencia ficcion",
+    categoria: "Ciencia Ficcion",
     sipnosis: "La historia arranca con la desaparición de un niño en una pequeña localidad alemana, hecho que cambiará.",
-    trailer: "https://www.youtube.com/embed/SrPggvIrRBI",
     imagen: "assets/Images/Series/8.jpg"
   },
   {
     titulo: "Wild Wild Country",
     fecha: "2018",
-    categoria: "accion",
-    sipnosis: "Un controvertido líder de culto construye una ciudad utópica en el desierto de Oregón. El conflicto con los.",
+    categoria: "Accion",
+    sipnosis: "Un controvertido líder de culto construye una ciudad utópica en el desierto de Oregón. El conflicto con.",
     trailer: "https://www.youtube.com/embed/3y-6iaveY6c",
     imagen: "assets/Images/Series/9.jpg"
   },
   {
     titulo: "Breaking bad ",
     fecha: "2008",
-    categoria: "accion",
-    sipnosis: "Walter White es un profesor de química de un instituto de Albuquerque. Cuando cumple 50 años es diagnosticado de.",
+    categoria: "Comedia",
+    sipnosis: "Walter White es un profesor de química de un instituto de Albuquerque. Cuando cumple 50 años.",
     trailer: "https://www.youtube.com/embed/IJ_AZCvCacw",
     imagen: "assets/Images/Series/10.jpg"
   },
   {
     titulo: "Vis a vis",
     fecha: "2015",
-    categoria: "accion",
+    categoria: "Comedia",
     sipnosis: "La ficción gira entorno a Macarena, una joven inofensiva que ingresa en la prisión de Cruz del Sur para.",
     trailer: "https://www.youtube.com/embed/hBLS_OM6Puk",
     imagen: "assets/Images/Series/12.jpg"
@@ -228,7 +227,7 @@ const series = [
   {
     titulo: "Peaky Blinders",
     fecha: "2013",
-    categoria: "accion",
+    categoria: "Accion",
     sipnosis: "Gran Bretaña vive la posguerra. Los soldados regresan, se acuñan nuevas revoluciones y nacen bandas.",
     trailer: "https://www.youtube.com/embed/HhesaQXLuRY",
     imagen: "assets/Images/Series/13.jpg"
@@ -236,7 +235,7 @@ const series = [
   {
     titulo: "Narcos",
     fecha: "2015",
-    categoria: "accion",
+    categoria: "Ciencia Ficcion",
     sipnosis: "La historia del ascenso y caída del capo colombiano Pablo Escobar y de los agentes de la DEA que.",
     trailer: "https://www.youtube.com/embed/1AZOY0Xo3m8",
     imagen: "assets/Images/Series/14.jpg"
@@ -244,7 +243,7 @@ const series = [
   {
     titulo: "Monstruo",
     fecha: "2022",
-    categoria: "accion",
+    categoria: "Ciencia Ficcion",
     sipnosis: "La historia de uno de los asesinos en serie más conocidos de Estados Unidos, contada desde los puntos de . ",
     trailer: "https://www.youtube.com/embed/ZHZG6UArE3I",
     imagen: "assets/Images/Series/11.jpg"
@@ -252,7 +251,7 @@ const series = [
   {
     titulo: "The crown",
     fecha: "2021",
-    categoria: "accion",
+    categoria: "Accion",
     sipnosis: "Cientos de personas con dificultades económicas aceptan una extraña invitación a un juego de.",
     trailer: "https://www.youtube.com/embed/xl8zdCY-abw",
     imagen: "assets/Images/Series/15.jpg"
@@ -275,9 +274,6 @@ const crearCarta = (pelicula) => {
 
   });
 
-
-  
- 
 
   const img = document.createElement('img')
   img.src = pelicula.imagen
@@ -328,6 +324,7 @@ const mostrarSeries = () => {
 }
 
 
+
 const buscarPeliculas = (texto) => {
   const moviesContenedor = document.querySelector('.section-movies')
   const peliculasFiltradas = peliculas.filter((pelicula) => {
@@ -349,50 +346,30 @@ const buscarPeliculas = (texto) => {
   }
 }
 
-const filtrarPorSeries = () => {
-  const seriesContenedor = document.querySelector('.section-series');
-  seriesContenedor.innerHTML = '';
 
-  series.forEach(s => {
-  seriesContenedor.appendChild(crearCarta(s));
-  });
-}
-
-const filtrarPorPeliculas = () => {
-  const moviesContenedor = document.querySelector('.section-movies');
-  moviesContenedor.innerHTML = '';
-
-  peliculas.forEach(p => {
-  moviesContenedor.appendChild(crearCarta(p));
-  });
-}
-
-
-const filtrarPeliculasPorCategoria = (categoria) => {
+const filtrarPorCategoria = (categoria) => {
   const peliculasFiltradas = peliculas.filter(p => p.categoria === categoria);
+  const seriesFiltradas = series.filter(s => s.categoria === categoria);
 
   const moviesContenedor = document.querySelector('.section-movies');
   moviesContenedor.innerHTML = '';
-
   peliculasFiltradas.forEach(p => {
     moviesContenedor.appendChild(crearCarta(p));
   });
-}
-
-const filtrarSeriesPorCategoria = (categoria) => {
-  const seriesFiltradas = series.filter(s => s.categoria === categoria);
 
   const seriesContenedor = document.querySelector('.section-series');
   seriesContenedor.innerHTML = '';
-
   seriesFiltradas.forEach(s => {
     seriesContenedor.appendChild(crearCarta(s));
   });
-}
+};
+
 
 const filtroCategoria = document.querySelector('#filtroCategoria');
 
 filtroCategoria.addEventListener('change', () => {
+  const categoria = filtroCategoria.value;
+  filtrarPorCategoria(categoria);
   if (filtroCategoria.value === 'series') {
     filtrarPorSeries();
   }
@@ -404,11 +381,8 @@ filtroCategoria.addEventListener('change', () => {
     mostrarPeliculas();
     mostrarSeries();
     return;
-  } else {
-    const categoria = filtroCategoria.value;
-    filtrarPeliculasPorCategoria(categoria);
-    filtrarSeriesPorCategoria(categoria);
-  }
+  } 
+ 
 })
 
 const buscarSeries = (texto) => {
@@ -445,6 +419,10 @@ cerrarModalelemento.addEventListener("click", () => {
   const modalElemento = document.querySelector(".modal");
   modalElemento.classList.remove("open");
 });
+
+
+
+
 mostrarPeliculas();
 mostrarSeries();
 
