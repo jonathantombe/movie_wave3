@@ -302,7 +302,36 @@ footer > p{
     display: flex;
   }
 
- 
+ @media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  select,
+  input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .section-movies,
+  .section-series {
+    padding: 20px;
+  }
+
+  footer ul {
+    flex-direction: column;
+  }
+}
+
+
 
 }
 
