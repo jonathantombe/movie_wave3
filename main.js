@@ -261,7 +261,7 @@ const series = [
 
 
 const crearCarta = (pelicula) => {
-  const element = document.createElement('div') 
+  const element = document.createElement('div')
 
   element.addEventListener("click", () => {
     console.log('teste');
@@ -292,6 +292,7 @@ const crearCarta = (pelicula) => {
   const trailer = document.createElement('a')
   trailer.setAttribute('target', '_blank')
   trailer.classList.add('trailer')
+  trailer.textContent = 'VER TRAILER'
   trailer.href = pelicula.trailer
 
   element.appendChild(img)
@@ -306,19 +307,19 @@ const crearCarta = (pelicula) => {
 
 const mostrarPeliculas = () => {
   const moviesContenedor = document.querySelector('.section-movies')
-  
+
   peliculas.forEach((pelicula) => {
     moviesContenedor.appendChild(crearCarta(pelicula))
-  
+
   })
 }
 
 const mostrarSeries = () => {
   const moviesContenedor = document.querySelector('.section-series')
-  
+
   series.forEach((serie) => {
     moviesContenedor.appendChild(crearCarta(serie))
-    
+
   })
 }
 
@@ -363,51 +364,6 @@ const filtrarPorCategoria = (categoria) => {
   });
 };
 
-const filtrarPeliculasPorCategoria = (categoria) => {
-  const peliculasFiltradas = peliculas.filter(p => p.categoria === categoria);
-
-  const moviesContenedor = document.querySelector('.section-movies');
-  moviesContenedor.innerHTML = '';
-
-  peliculasFiltradas.forEach(p => {
-    moviesContenedor.appendChild(crearCarta(p));
-  });
-}
-
-const filtrarSeriesPorCategoria = (categoria) => {
-  const seriesFiltradas = series.filter(s => s.categoria === categoria);
-
-  const seriesContenedor = document.querySelector('.section-series');
-  seriesContenedor.innerHTML = '';
-
-  seriesFiltradas.forEach(s => {
-    seriesContenedor.appendChild(crearCarta(s));
-  });
-}
-
-const filtroCategoria = document.querySelector('#filtroCategoria');
-
-filtroCategoria.addEventListener('change', () => {
-  if (filtroCategoria.value === 'series') {
-    filtrarPorSeries();
-  }
-
-  if (filtroCategoria.value === 'peliculas') {
-    filtrarPorPeliculas();
-  }
-  if (filtroCategoria.value === 'todos') {
-    mostrarPeliculas();
-    mostrarSeries();
-    return;
-  } else {
-    const categoria = filtroCategoria.value;
-    filtrarPeliculasPorCategoria(categoria);
-    filtrarSeriesPorCategoria(categoria);
-  }
-
-  
-
-})
 
 const filtroCategoria = document.querySelector('#filtroCategoria');
 
@@ -425,8 +381,8 @@ filtroCategoria.addEventListener('change', () => {
     mostrarPeliculas();
     mostrarSeries();
     return;
-  } 
- 
+  }
+
 })
 
 const buscarSeries = (texto) => {
